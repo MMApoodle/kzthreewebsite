@@ -1,0 +1,39 @@
+.opening {
+    height: 950px;
+    text-align: center;
+    width: 100%;
+}
+
+.opening h2 {
+    font-family: 'Acme', sans-serif;
+    font-size: 500%;
+    -webkit-text-stroke: 4px rgb(20, 130, 189); 
+    text-stroke: 4px rgb(20, 130, 189);
+    border-bottom: white 2px solid;
+    margin-top: 200px;
+}
+
+.opening p {
+    color: yellow;
+    font-size: 150%;
+}
+
+.opening .hero-fg {
+    margin-top: 100px;
+}
+
+h1 {
+    font-family: 'Acme', sans-serif;
+    -webkit-text-stroke: 4px rgb(20, 130, 189); 
+    text-stroke: 4px rgb(20, 130, 189);
+}
+
+.recent ul {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
+
+.tohome {
+    width: 45%;
+}
