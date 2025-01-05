@@ -96,3 +96,4 @@ static/
 .env
 db.sqlite3
 /venv/
+venv39/

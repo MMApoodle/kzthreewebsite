@@ -1,0 +1,21 @@
+services:
+  kzthree_web:
+    build: .
+    command: gunicorn --workers 5 -k gevent --bind 0.0.0.0:8001 kzthree.wsgi:application
+    ports:
+      - 8001:8000
+#    env_file:
+#      - ./.env
+    volumes:
+      - ./static:/app/static
+      - ./media:/app/media
+      - ./db.sqlite3:/db.sqlite3
+    networks:
+      - public
+      - private
+
+networks:
+  public:
+    external: true
+  private:
+    external: true
